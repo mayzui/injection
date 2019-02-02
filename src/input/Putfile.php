@@ -9,8 +9,9 @@ class Putfile
 
     public function setFile ()
     {
-        return $this->data = 'set file';
+        return $this->file = 'set file';
     }
+    
     public function putFile ()
     {
         return var_dump($this->file);
