@@ -1,0 +1,21 @@
+{
+    "name": "mayzui/injection",
+    "description": "first composer",
+    "type": "1",
+    "require": {
+        "php": ">7.00"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mayzui",
+            "email": "ssi_lavarel@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+    "psr-4": {
+        "injection\\": "src/"
+    }
+    }
+}

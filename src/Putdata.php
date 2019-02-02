@@ -1,6 +1,6 @@
 <?php
 
-namespace injecttion\input;
+namespace injecttion;
 
 class Putdata
 {
