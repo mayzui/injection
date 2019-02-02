@@ -1,6 +1,6 @@
 <?php
 
-namespace injecttion;
+namespace injection;
 
 class Putdata
 {
@@ -9,13 +9,11 @@ class Putdata
 
     public function setData ()
     {
-        return $this->data = 'set data';
+         $this->data = 'set data';
+         return  $this;
     }
     public function putData ()
     {
-        return var_dump($this->data);
+         echo $this->data;
     }
 }
-
-
-?>

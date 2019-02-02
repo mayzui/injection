@@ -1,6 +1,6 @@
 <?php
 
-namespace injecttion;
+namespace injection;
 
 class Putfile
 {
@@ -9,14 +9,13 @@ class Putfile
 
     public function setFile ()
     {
-        return $this->file = 'set file';
+         $this->file = 'set file';
+         return $this;
+    }
+
+    public function putFile()
+    {
+        echo $this->file;
     }
     
-    public function putFile ()
-    {
-        return var_dump($this->file);
-    }
 }
-
-
-?>
